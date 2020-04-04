@@ -1,0 +1,7 @@
+/Users/arastogi/eclipse-workspace/micro-services/schoolmicroservice/src/main/java/com/dummy/schoolmicroservice/controller/SchoolControllerFeign.java
+/Users/arastogi/eclipse-workspace/micro-services/schoolmicroservice/src/main/java/com/dummy/schoolmicroservice/configuration/RibbonConfiguration.java
+/Users/arastogi/eclipse-workspace/micro-services/schoolmicroservice/src/main/java/com/dummy/schoolmicroservice/feignservice/StudentFeignService.java
+/Users/arastogi/eclipse-workspace/micro-services/schoolmicroservice/src/main/java/com/dummy/schoolmicroservice/dto/Student.java
+/Users/arastogi/eclipse-workspace/micro-services/schoolmicroservice/src/main/java/com/dummy/schoolmicroservice/controller/SchoolController.java
+/Users/arastogi/eclipse-workspace/micro-services/schoolmicroservice/src/main/java/com/dummy/schoolmicroservice/configuration/FeignConfiguration.java
+/Users/arastogi/eclipse-workspace/micro-services/schoolmicroservice/src/main/java/com/dummy/schoolmicroservice/SchoolmicroserviceApplication.java

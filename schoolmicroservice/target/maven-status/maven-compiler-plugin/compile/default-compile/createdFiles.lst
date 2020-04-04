@@ -1,0 +1,9 @@
+com/dummy/schoolmicroservice/dto/Student.class
+com/dummy/schoolmicroservice/SchoolmicroserviceApplication.class
+com/dummy/schoolmicroservice/controller/SchoolController$1.class
+com/dummy/schoolmicroservice/feignservice/StudentFeignService.class
+com/dummy/schoolmicroservice/configuration/FeignConfiguration$1.class
+com/dummy/schoolmicroservice/controller/SchoolControllerFeign.class
+com/dummy/schoolmicroservice/configuration/RibbonConfiguration.class
+com/dummy/schoolmicroservice/configuration/FeignConfiguration.class
+com/dummy/schoolmicroservice/controller/SchoolController.class

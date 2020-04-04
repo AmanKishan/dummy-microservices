@@ -1,0 +1,12 @@
+spring:
+   application:
+      name: student-microservice
+   profiles:
+      active:  
+   cloud:
+      config:
+        enabled: true
+        failFast: false
+        uri: http://localhost:8888
+        profile: dev
+        retry: '*'

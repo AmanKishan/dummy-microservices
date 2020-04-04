@@ -1,0 +1,29 @@
+version: '2'
+services:
+  dummy-eureka:
+    image: amankishan/dummy-eureka:dummy-eureka-tag
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+    ports:
+      - 8761:8761
+  student-microservice:
+    image: amankishan/student-microservice:student-microservice-tag
+    ports:
+      - 8081:8081
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=docker
+  school-microservice:
+    image: amankishan/school-microservice:school-microservice-tag
+    ports:
+      - 8082:8082
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=docker
+  dummy-gateway:
+    image: amankishan/dummy-gateway:dummy-gateway-tag
+    ports:
+      - 8090:8090
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=docker
